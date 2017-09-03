@@ -1,0 +1,37 @@
+.container {
+  padding: 80px 0;
+  text-align: center;
+}
+.tool {
+  display: inline-block;
+  background-color: #FF00AE;
+  overflow:visible;
+  padding: 20px 50px;
+  color: #EBEBE0;
+  font-size: 1.5em;
+  text-align: center;
+  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+}
+
+.tool:hover {
+  background-color: #FF0082;
+  cursor:pointer;
+}
+
+.tooltip {
+  position: fixed;
+  display:none;
+  width: 400px;
+
+  color: #F4F8F7;
+  padding: 10px;
+  background-color: #B34EE9;
+  font-size:0.5em;
+  left: 0;
+  box-sizing:border-box;
+  /*shadow*/
+  -webkit-box-shadow: 10px 7px 30px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 7px 30px -7px rgba(0,0,0,0.75);
+  box-shadow: 10px 7px 30px -7px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,37 @@
+.container {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#myDIV{
+	width: 100%;
+    padding:50px 0;
+    text-align: center;
+    background-color: #D5D5D5;
+	margin-top: 20px;
+}
+
+.container #Btn {
+    border: none;
+  display: inline-block;
+  background-color: #F90021;
+  overflow:visible;
+  padding: 20px 50px;
+  color: #EBEBE0;
+  font-size: 0.7em;
+  text-align: center;
+  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+}
+
+container #Btn:hover {
+  background-color: #E4001E;
+  cursor:pointer;
+}
+  
+
+
+
+
+
+
